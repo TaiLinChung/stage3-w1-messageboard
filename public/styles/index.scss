@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    .functionBlock{
+        display: flex;
+        justify-content: center;
+        .functionContainer{
+            margin-top: 50px;
+            width: 1200px;
+            // height: 250px;
+            border: black solid 1px;
+            background-color: rgb(172, 178, 178);
+            .functionTitle{
+                width:100%;
+                height: 50px;
+                padding-top: 10px;
+                padding-left: 10px;
+                line-height: 50px;
+                // background-color: antiquewhite;
+                font-size: 40px;
+                font-weight: 1000;
+            }
+            .functionForm{
+                margin-top: 10px;
+                width:100%;
+                height: 120px;
+                // background-color: aquamarine;
+                div{
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    input{
+                        border-radius: 3px;
+                    }
+                }
+                button{
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    width:90px;
+                    height:26px;
+                }
+            }
+            .messageBlock{
+                margin-top: 10px;
+                height:250px;
+                // background-color: bisque;
+                hr{
+                    border: black solid 1px;
+                } 
+                .wordBlock{
+                    height: 50px;
+                    width:100%;
+                    padding:10px;
+                    // background-color: aquamarine;
+                    p{
+                        span{
+                            margin-left: 10px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .pictureBlock{
+                    height: 250px;
+                    width:100%;
+                    padding-left:10px;
+                    // background-color: rgb(60, 59, 58);
+                    .messagePicture{
+                        height: 180px;
+                        width:300px;
+                        object-fit:cover;
+                        // background-color: rgb(56, 65, 62);
+                    }
+                }
+            }
+            
+        } 
+            
+    }
+    
+}
